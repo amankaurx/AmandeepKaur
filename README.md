@@ -4,7 +4,7 @@ A modern, responsive personal portfolio built with **HTML5** and **CSS3**, desig
 
 ## Live Demo
 
-👉 *(Add GitHub Pages link here after deployment.)*
+👉 [Amandeep Kaur Portfolio ](https://amankaurx.github.io/AmandeepKaur/)
 
 ## Built With
 
