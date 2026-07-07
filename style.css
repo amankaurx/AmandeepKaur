@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+#vanta-desktop{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    margin: 2em;
+    color: rgb(209, 197, 173);
+}
+.logo{
+    height: 100vh;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    font-size: 5rem;
+    line-height: 0.8;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+    line-height: 1;
+    font-weight: bold;
+}
+.recent-header{
+    display: grid;
+    grid-template-columns:  1fr 5fr 5fr 1fr;
+}
+.recent-header-h3{
+    grid-column: 2;
+    font-size: 2rem;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+
+}
+.recent-entry-h3{
+    grid-column: 2;
+    font-size: 2rem;
+}
+.recent-entry-description{
+    grid-column: 3;
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+.recent-entry{   
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+.recent-entry-timeline{
+    font-size: 1.5rem;
+}
+/* hover effects */
+.recent-entry{
+    transition: transform 0.25s ease-out,
+                box-shadow 0.25s ease-out,
+                background-color 0.25s ease;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.recent-entry:hover{
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(8px);
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.45),
+        0 0 30px rgba(2, 96, 247, 0.587);
+}
+@media only screen and (max-width: 730px){
+    body{
+        overflow: auto;
+    }
+    .logo{
+    height: 50vh;
+    font-size: 3rem;
+}
+#vanta-desktop{
+display: none;
+}
+#vanta-mobile{
+    display: flex;
+}
+.intro{
+    font-size: 1.5rem;
+    grid-template-columns: 1fr;
+}
+.recent-header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.recent-header-h3{
+    grid-column: 1;
+    font-size: 1.5rem;
+}
+.recent-entry{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+}
