@@ -2,6 +2,11 @@
 
 A modern, responsive personal portfolio built with **HTML5** and **CSS3**, designed to showcase my work while exploring visual design, typography, responsive layouts, and interactive user experiences.
 
+Inspired by Danny Garcia's portfolio:
+https://danny-garcia.com/
+
+This project was recreated as a learning exercise to practice responsive web design, typography, and CSS. The implementation was written from scratch using HTML and CSS.
+
 ## Live Demo
 
 👉 [Amandeep Kaur Portfolio ](https://amankaurx.github.io/AmandeepKaur/)
